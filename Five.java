@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class Five {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+		System.out.println("input");
         int n = scanner.nextInt();
         scanner.close();  // Close scanner to avoid resource leaks
         
